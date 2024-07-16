@@ -12,3 +12,10 @@ docs/
 
 # Dotenv file
 .env
+
+# Dependencies
+node_modules
+.DS_Store
+
+# Generated Data
+/js-cdf-generation/data

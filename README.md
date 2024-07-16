@@ -1,66 +1,21 @@
+# gaussian-cdf
+Implementation of Gaussian Cumulative Distribution Function (CDF) in Solidity. The library is tested against https://github.com/errcw/gaussian and has a maximum error of **1e-13**.
+
+# Usage
+## JS Packages
+Run the following command in order to install the needed JavaScript packages.
+```
+$ npm i
+```
 ## Foundry
-
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
 ### Build
-
+Run the following command in order to build the project’s smart contracts.
 ```shell
 $ forge build
 ```
 
 ### Test
-
+Run the following command in order to test the library against errcw/gaussian.
 ```shell
 $ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
 ```
